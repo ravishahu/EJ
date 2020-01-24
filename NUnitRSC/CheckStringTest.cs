@@ -52,6 +52,7 @@ namespace NUnitRSC
 
         [TestCase("121")]
         [TestCase("1213413")]
+        [TestCase("121341312344")]
         public void IsInt_ReturnTrue(string value)
         {
 
